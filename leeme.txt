@@ -44,3 +44,51 @@ INTRO
 			Pruebas unitarias javascript
 			Pruebas unitarias de backend
 			Integración continua en la nube
+
+
+
+INCEPTION
+**********
+	1. Objetivo
+		Desarrollo de aplicación web de gestión de incidencias y/o solicitudes
+	2. Elevator pitch
+		Para clientes con proyectos entregados o en curso
+		los cuales desean interactuar con los equipos responables de estos proyectos
+		el Sistema de Gestión de Incidencias
+		es una herramienta de comunicación 
+		que informa a los equipos de mantenimiento y desarrollo sobre acciones necesarias
+		y que a diferencia de los sistemas web de gestión de incidencias tradicionales
+		nuestro sistema contendrá la información necesaria para encajar en diversos dispositivos
+	3. Claves:
+		Interfaz responsive
+		Funciones mínimas requeridas
+		Minimizar la cantidad de preguntas al usuario
+	4. Fuera de alcance:
+		Integración con otros sistemas
+		Otros estados y niveles de criticidad distintos a los solicitados
+	5. Involucrados
+		Personal de infraestructura
+		Personal de mantenimiento
+		Equipo de desarrollo
+		Dirección
+	6. Solución de alto nivel
+		Interfaz HTML/CSS Responsive
+			->Interacción con angularjs para:
+				(1) modelo de datos del lado del cliente
+				(2) controladores de acciones
+				-> Backend con un server Node.js para la lógica de negocio
+	7. Riesgos
+		Tiempo: fecha máxima de entrega el 25 de julio de 2014
+		Conocimientos: particularmente en el manejo de sesiones con angularjs
+	8. Tiempos
+		1 día para la entrega
+	9. Priorización de los objetivos generales
+		(1) Interfaz web para navegadores en PC (800px) y móviles (480px)
+		(2) Solicitud de datos de la incidencia o mejora
+		(3) Presentación del resumen de la incidencia
+		(4) Recopilación de usuario y fecha del sistema
+		(5) Desarrollo del gestor de datos en memoria
+		(6) Solicitar datos de mantenimiento de incidencia (cambio de estado)
+		(7) Backend node.js con persistencia 
+	10. Primera entrega
+		La primera entrega cubrirá los puntos 1 al 4 del apartado "9. Priorización de los objetivos generales"
