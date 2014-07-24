@@ -24,10 +24,17 @@
             <hr/>
             <br/>
             <h1>Estado de la incidencia</h1>
+            <b>Fecha:</b> <p ng-app ng-controller="DateController">{{fecha | date:'yyyy-MM-dd'}}</p><br/>
             <b>Resumen:</b> {{resumen}}<br/>
             <b>Descripción:</b> {{descripcion}}<br/>
             <b>Criticidad:</b> {{criticidad}}<br/>
         </div>
         <script type="text/javascript" src="js/libs/angular.js/angular.js"></script>
+        
+        <script type="text/javascript">
+            function DateController($scope){
+                $scope.fecha = new Date();
+            }
+        </script>
     </body>
 </html>
