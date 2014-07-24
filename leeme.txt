@@ -1,0 +1,46 @@
+INTRO
+*******
+	Resumen:
+		Se desea desarrollar una aplicación web de 
+			(1) gestión de incidencias 
+			(2) solicitudes de mejora
+				-proyectos en marcha
+				-proyectos en mantenimiento
+				-proyectos en garantía
+
+		Se debe solicitar
+			Resumen de la incidencia
+			Texto descriptivo formateado
+			Nivel de criticidad
+				bajo
+				medio
+				alto
+				crítico
+
+		Se debe recoger de forma transparente
+			Autor
+			Fecha
+
+		Se debe establecer
+			Estado de la incidencia
+				abierta
+				resolviéndose
+				necesita feedback
+				cerrada
+				resuelta
+				duplicada
+				no se resuelve
+			Ante cada cambio de estado se debe incluir un comentario que explique por qué el cambio
+
+	A entregar:
+		Historias de usuario
+		Tareas
+		Priorización
+		Estimación de historias
+		Aplicación web basada en angularjs con gestión en memoria de las entidades
+		Plus:
+			Backend con node.js o en la nube
+			Diseño responsive
+			Pruebas unitarias javascript
+			Pruebas unitarias de backend
+			Integración continua en la nube
