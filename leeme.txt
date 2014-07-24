@@ -151,3 +151,16 @@ Historias
 		Como desarrollador
 		Quiero obtener datos persistidos de una solicitud de mejora
 		Para modificar su estado
+
+Priorización
+************
+	WC-01-01
+	WC-01-03
+	WC-01-05
+	WC-01-06
+	BE-01-01
+	WA-01-01
+	WC-01-02
+	WC-01-04
+	BE-01-02
+	WA-01-02
