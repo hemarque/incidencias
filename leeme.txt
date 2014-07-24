@@ -98,3 +98,11 @@ TEMAS
 	-Web cliente (WC): interfaz web para el ingreso y consulta de estado de incidencias por parte del cliente
 	-Web administrativa (WA): interfaz web para la modificación del estado de incidencias por parte del administrador
 	-Backend (BE): sistema que gestiona la lógica de negocio persistente del sistema de incidencias
+	
+Epicas
+******
+	WC-01: ingreso de datos de incidencia
+	WC-02: visualización de estado de la incidencia
+	WC-03: obtención automática de datos del usuario
+	WA-01: edición de estado de la incidencia
+	BE-01: persistencia de datos en repositorio
