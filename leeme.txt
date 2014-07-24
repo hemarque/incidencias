@@ -106,3 +106,48 @@ Epicas
 	WC-03: obtención automática de datos del usuario
 	WA-01: edición de estado de la incidencia
 	BE-01: persistencia de datos en repositorio
+	
+Historias
+*********
+	WC-01-01: 
+		Como cliente de proyectos entregados
+		Quiero ingresar los datos de una incidencia
+		Para notificar mejoras necesarias
+	WC-01-02: 
+		Como cliente de proyectos en curso
+		Quiero ingresar los datos de una mejora
+		Para notificar nuevos requisitos sobre el proyecto
+	WC-01-03: 
+		Como cliente de proyectos entregados
+		Quiero visualizar el estado de una incidencia
+		Para obtener información sobre su resolución
+	WC-01-04: 
+		Como cliente de proyectos en curso
+		Quiero visualizar el estado de una mejora propuesta
+		Para observar si ha sido aprobada
+	WC-01-05: 
+		Como cliente de proyectos
+		Quiero que se obtenga automáticamente mi usuario
+		Para ahorrar tiempo en las gestiones
+	WC-01-06: 
+		Como cliente de proyectos
+		Quiero que se obtenga automáticamente la fecha de solicitud
+		Para ahorrar tiempo en las gestiones
+
+	WA-01-01: 
+		Como encargado de mantenimiento
+		Quiero modificar el estado de una incidencia
+		Para dar respuesta a nuestro cliente
+	WA-01-02: 
+		Como desarrollador
+		Quiero modificar el estado de una solicitud de mejora
+		Para dar respuesta a nuestro cliente
+
+	BE-01-01:
+		Como encargado de mantenimiento
+		Quiero obtener datos persistidos de una incidencia
+		Para modificar su estado
+	BE-01-02:
+		Como desarrollador
+		Quiero obtener datos persistidos de una solicitud de mejora
+		Para modificar su estado
