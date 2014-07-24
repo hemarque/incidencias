@@ -1,0 +1,30 @@
+
+html *
+{
+    color: #000 !important;
+    font-family: "Lucida Grande", Geneva, Arial, Verdana, sans-serif !important;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'serif';
+}
+
+#content {
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: auto;
+    padding: 30px;
+}
+
+
+/* Media querys para actuar de forma responsive */
+
+
+@media only screen and (max-width:460px) {
+    #content {
+        width: 250px;
+        background-color: gainsboro;
+    }
+}

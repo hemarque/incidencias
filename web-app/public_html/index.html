@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <title>Servicio de gestión de incidencias</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css" media="screen" />
+    </head>
+    <body>
+        <div id="content">
+            <h1>Datos de la incidencia</h1>
+            Resumen:<br/>
+            <input type="text" ng-model="resumen"/><br/><br/>
+            Descripción:<br/> 
+            <textarea ng-model="descripcion"/></textarea><br/><br/>
+            Criticidad:
+            <select ng-model="criticidad">
+                <option value="baja">baja</option>
+                <option value="media">media</option>
+                <option value="alta">alta</option>
+                <option value="critica">critica</option>
+            </select>
+            <br/>
+            <hr/>
+            <br/>
+            <b>Resumen:</b> {{resumen}}<br/>
+            <b>Descripción:</b> {{descripcion}}<br/>
+            <b>Criticidad:</b> {{criticidad}}<br/>
+        </div>
+        <script type="text/javascript" src="js/libs/angular.js/angular.js"></script>
+    </body>
+</html>
