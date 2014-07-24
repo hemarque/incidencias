@@ -92,3 +92,9 @@ INCEPTION
 		(7) Backend node.js con persistencia 
 	10. Primera entrega
 		La primera entrega cubrirá los puntos 1 al 4 del apartado "9. Priorización de los objetivos generales"
+		
+TEMAS
+*****
+	-Web cliente (WC): interfaz web para el ingreso y consulta de estado de incidencias por parte del cliente
+	-Web administrativa (WA): interfaz web para la modificación del estado de incidencias por parte del administrador
+	-Backend (BE): sistema que gestiona la lógica de negocio persistente del sistema de incidencias
