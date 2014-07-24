@@ -182,7 +182,7 @@ Estimación
 
 To-Do		Doing		Done
 *****		*****		****
-WC-01-01
+			WC-01-01
 WC-01-03
 WC-01-05
 WC-01-06
